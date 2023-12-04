@@ -15,6 +15,6 @@ class ReservasiController extends Controller
     }
 
     public function store(){
-        $user = User::
+        // $user = User::
     }
 }
