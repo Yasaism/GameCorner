@@ -25,6 +25,10 @@ class LoginController extends Controller
         ]);
 
         $user = User::whereEmail($request->email)->fisrt();
+
+        if($user){
+            if(Has)
+        }
     }
 
 }
